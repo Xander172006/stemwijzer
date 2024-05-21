@@ -1,0 +1,143 @@
+/* Reset some default styles */
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container styles for the index.html */
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    color: #007bff;
+}
+
+.description {
+    margin: 5% 0;
+}
+
+/* Button styles */
+.start-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for questions.html */
+#hide, #seek {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5%;
+    align-items: center;
+}
+
+.buttons button /* question buttons */ {
+    margin: 5% 0;
+    background-color: gray;
+    padding: 2.5% 5%;
+    font-size: large;
+    font-weight: 700;
+}
+
+.buttons button:first-child {
+    background-color: green;
+    color: white;
+}
+
+.buttons button:last-child {
+    background-color: red;
+    color: white;
+}
+
+.buttons button:first-child:hover {
+    background-color: rgb(0, 90, 0);
+}
+
+.buttons button:last-child:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+.buttons button:first-child:focus {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.buttons button:last-child:focus {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.results {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+button {
+    background-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+}
+
+.back button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.back button:hover {
+    background-color: #0056b3;
+}
+
+
+#seek p {
+    margin: 10px 0;
+    font-size: 18px;
+}

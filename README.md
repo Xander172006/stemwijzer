@@ -1,2 +1,2 @@
 # stemwijzer
-Opdracht voor het vak burgerschap op school voor de periode "Politiek Juridisch"
+stemwijzer voor de 2023 stem verkiezingen
